@@ -8,28 +8,14 @@ body {
     font-family: Arial, sans-serif;
 }
 
-.d-flex {
-    display: flex;
-}
-
 .container {
     width: 90%;
     margin: 50px auto;
 
-    .prova {
+    .card-container {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
         padding: 10px;
-    }
-
-    .card {
-        width: calc(100% / 5 - 10px);
-        height: 300px;
-        overflow: auto;
-        margin-bottom: 10px;
-        padding: 20px 10px;
-        border-radius: 5px;
-        background-color: rgb(224, 219, 219);
     }
 }
