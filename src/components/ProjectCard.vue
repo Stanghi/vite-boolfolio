@@ -9,7 +9,11 @@ export default {
 
 <template>
     <div class="card">
-        <h2>{{ project.title }}</h2>
+        <h2>
+            <router-link :to="{ name: 'project-detail', params: { slug: project.slug } }">
+                {{ project.slug }}
+            </router-link>
+        </h2>
         <p>{{ project.client_name }}</p>
         <p>{{ project.summary }}</p>
         <img src="" alt="" />
