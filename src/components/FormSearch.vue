@@ -34,10 +34,6 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-.debug {
-    background-color: red;
-}
-
 .container-search {
     width: 100%;
     display: flex;

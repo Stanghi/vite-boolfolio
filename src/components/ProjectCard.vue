@@ -19,7 +19,9 @@ export default {
         <img src="" alt="" />
 
         <h3>{{ project.type.name }}</h3>
-        <p v-for="technologies in project.technologies" :key="technologies.id">{{ technologies.name }}</p>
+        <p v-for="technologies in project.technologies" :key="'tech' + technologies.id">
+            {{ technologies.name }}
+        </p>
     </div>
 </template>
 
